@@ -30,3 +30,6 @@ We implemented 3 function
     - Buzzer buzzes as alarm indicating problem in the power plant
     - LED's will be shutting down one after the other.
 
+### Problem with this System
+* Here we assume that when are system is monitoring either speed or temperature then other system is in the safe operating zone.
+* But in real time it is required that we have to simultaneously monitor both  speed and temperature.

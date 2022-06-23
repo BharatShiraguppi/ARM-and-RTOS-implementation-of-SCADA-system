@@ -6,7 +6,7 @@ A power plant operator uses a SCADA system for safe operations. The system conti
 SCADA, or supervisory control and data acquisition, is a potent technology used to manage the processing and visualization of data from industrial equipment. Operators and field supervisors can obtain actionable data and manage hundreds of assets using a modern SCADA solution without having to visit every field. This can result in a considerable cost savings.
 <br>
 ## Implementation Details
-### Requirments
+### Requirements
 * LPC2148 Microcontroller (Based on ARM7TDMI processor 32-bits)
 * Keil- Micro Vision Software
 * LED's (Indicating each sectors)

@@ -1,3 +1,22 @@
 # ARM-and-RTOS-implementation-of-SCADA-system
+## Problem Statement
+A power plant operator uses a SCADA system for safe operations. The system continuously monitors the rate of flow of air and fuel (natural gas) into the combustion chamber, the speed of the turbine, and the temperature in the combustion chamber. If the speed of the turbine or the temperature in the combustion chamber reach values outside the safe operating range, then it shuts down the unit. Note that a power plant, like most industrial units, cannot be abruptly shut down. It must undergo a controlled shutdown.
+<br>
 ## SCADA system
-A SCADA system is used by a power plant operator to ensure safe operation. The temperature of the air inside the chamber and the rotational speed of the turbine are both continuously monitored by the system. It shuts down the machine if either the turbine speed or the temperature in the combustion chamber exceeds the safe operating range. Be aware that a power plant, like the majority of industrial facilities, cannot be shut down suddenly. This system performs a controlled shutdown, as that is exactly is required.
+SCADA, or supervisory control and data acquisition, is a potent technology used to manage the processing and visualization of data from industrial equipment. Operators and field supervisors can obtain actionable data and manage hundreds of assets using a modern SCADA solution without having to visit every field. This can result in a considerable cost savings.
+<br>
+## Implementation Details
+### Requirments
+* LPC2148 Microcontroller (Based on ARM7TDMI processor 32-bits)
+* Keil- Micro Vision Software
+* LED's (Indicating each sectors)
+* Buzzer ( Used as alarm during Shutdown)
+* LCD (to display warning message
+* ADC Knob (to vary the temperature)
+* UART (to vary speed of turbine)
+
+### Cnditions
+* Threshold temperature - If temperation goes above the range of 200 degree then system will shut down
+* Threshold speed - If speed of turbin goes above it then system will shut down(say 8rpm)
+
+### Working

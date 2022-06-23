@@ -22,9 +22,8 @@ SCADA, or supervisory control and data acquisition, is a potent technology used 
 ### Working
 We implemented 3 function
 1. temp_monitoring_system()
-  - This function continuosly monitors the temperature of the air as the temperature is varied through ADC knob
+    - This function continuosly monitors the temperature of the air as the temperature is varied through ADC knob
 2. speed_monitor_system()
-  - This continously monitors the speed of the turbine as speed in varied through UART.
-<br>
+    - This continously monitors the speed of the turbine as speed in varied through UART.
 3. shutdown_system()
-  - This 
+    - This 

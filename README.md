@@ -15,8 +15,17 @@ SCADA, or supervisory control and data acquisition, is a potent technology used 
 * ADC Knob (to vary the temperature)
 * UART (to vary speed of turbine)
 
-### Cnditions
+### Conditions
 * Threshold temperature - If temperation goes above the range of 200 degree then system will shut down
 * Threshold speed - If speed of turbin goes above it then system will shut down(say 8rpm)
 
 ### Working
+We implemented 3 function
+1. temp_monitoring_system()
+- This function continuosly monitors the temperature of the air as the temperature is varied through ADC knob
+<br>
+2. speed_monitor_system()
+- This continously monitors the speed of the turbine as speed in varied through UART.
+<br>
+3. shutdown_system()
+- This 
